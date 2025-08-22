@@ -1,0 +1,28 @@
+.SearchBox {
+  max-width: 400px;       /* keeps form compact */
+  margin: 80px auto;      /* centers it vertically & horizontally */
+  padding: 30px;
+  background: #ffffff;    /* clean card-style */
+  border-radius: 12px;    /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  text-align: center;
+}
+
+.SearchBox h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.SearchBox .form-control {
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.SearchBox .btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
