@@ -1,10 +1,11 @@
 import React from 'react'
-import SearchBox from './SearchBox'
+
+import Weatherapp from './Weatherapp'
 
 function App () {
   return (
     <>
-    <SearchBox />
+    <Weatherapp />
     </>
    
   )

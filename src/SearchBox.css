@@ -1,28 +1,32 @@
 .SearchBox {
-  max-width: 400px;       /* keeps form compact */
-  margin: 80px auto;      /* centers it vertically & horizontally */
+  max-width: 420px;
+  margin: 80px auto;
   padding: 30px;
-  background: #ffffff;    /* clean card-style */
-  border-radius: 12px;    /* rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .SearchBox h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #333;
+  color: #2c3e50;
 }
 
-.SearchBox .form-control {
+.MuiTextField-root {
   border-radius: 8px;
-  font-size: 1rem;
 }
 
-.SearchBox .btn {
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  margin-top: 10px;
+.MuiButton-root {
+  border-radius: 8px !important;
+  padding: 10px 0 !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+
+.MuiAlert-root {
+  font-size: 0.9rem;
+  margin-top: -5px;
 }
