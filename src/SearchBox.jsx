@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Alert from "@mui/material/Alert"; // for error message
-import CircularProgress from "@mui/material/CircularProgress"; // loading spinner
+import Alert from "@mui/material/Alert"; 
+import CircularProgress from "@mui/material/CircularProgress"; 
 import "./SearchBox.css";
 
 function SearchBox({ updateInfo }) {
@@ -39,7 +39,7 @@ function SearchBox({ updateInfo }) {
       weather: data?.weather?.[0]?.main || "N/A",
     };
   } catch (err) {
-    // ✅ now it's not "useless"
+   
     throw new Error(
       err.message === "City not found"
         ? "City not found"
@@ -50,7 +50,7 @@ function SearchBox({ updateInfo }) {
 
   const handleChange = (e) => {
     setCity(e.target.value);
-    setError(""); // clear error when user types again
+    setError(""); 
   };
 
   const handleSubmit = async (e) => {
